@@ -451,12 +451,12 @@ Styles of Pokemon Single Page
 
 
 
-@media only screen and (min-width: 769px) and (max-width: 1200px) {
+@media only screen and (min-width: 80%) and (max-width: 95%) {
 	
 /* Globales */
 	
 .container {
-	max-width: 1200px;
+	max-width: 95%;
 	margin: 0 auto;
 }
 /* Card List Pokemon */
