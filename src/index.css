@@ -621,7 +621,9 @@ header {
 	display: grid;
 	align-items: center;
 
-	position: relative;
+
+	height: 90%;
+	width: 90%;
 }
 
 
