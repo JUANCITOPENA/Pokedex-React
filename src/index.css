@@ -501,11 +501,13 @@ header {
 }
 
 .logo img {
-	width: 100px;
+	width: 80%;
+	height: 80%;
+	margin: 0 auto;
 }
 
 .container {
-	max-width: 95%;
+	max-width: 90%;
 	margin: 0 auto;
 }
 	
@@ -523,6 +525,7 @@ header {
 	width: 15px;
 	height: 15px;
 	stroke: #555;
+	gap: 20px;
 }
 	
 /* Card List Pokemon */
