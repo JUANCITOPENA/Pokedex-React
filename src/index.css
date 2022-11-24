@@ -557,5 +557,60 @@ header {
 	width: 80%;
 	height: 80%;
 }
+	
+	
+.number-pokemon {
+	position: absolute;
+	top: -130px;
+	left: 0;
+
+	font-size: 20px;
+	font-weight: 700;
+	color: var(--color-primary-hover);
+}
+
+.container-img-pokemon {
+	order: 2;
+	flex: 1;
+	padding: 25px 25px 25px 0;
+	height: 300px;
+}
+
+.container-img-pokemon img {
+	height: 90%;
+	width: 90%;
+}
+
+.container-info-pokemon {
+	display: flex;
+	flex-direction: column;
+
+	order: 1;
+	flex: 1;
+}
+
+.container-info-pokemon h1 {
+	text-align: right;
+	font-size: 30px;
+}
+
+.info-pokemon {
+	display: flex;
+	justify-content: space-between;
+
+	margin-top: 20px;
+}
+
+.group-info{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.group-info p {
+	font-weight: 700;
+	font-size: 20px;
+}
+
 
 }
