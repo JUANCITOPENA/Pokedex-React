@@ -448,6 +448,42 @@ Styles of Pokemon Single Page
 }
 
 
+
+
+
+@media screen and (min-width: 900px) {
+
+/* Card List Pokemon */
+.card-list-pokemon {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+}
+
+.card-pokemon {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.card-img {
+	background-color: #f2f2f2;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	height: 250px;
+}
+
+.card-img img {
+	width: 90%;
+	height: 90%;
+}
+
+}
+
+
+
 @media screen and (min-width: 480px) {
 
 /* Card List Pokemon */
