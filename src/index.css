@@ -503,7 +503,7 @@ header {
 .logo img {
 	width: 80%;
 	height: 80%;
-	margin: 0 auto;
+	display: grid;
 }
 
 .container {
@@ -592,7 +592,7 @@ header {
 .container-info-pokemon h1 {
 	text-align: center;
 	font-size: 30px;
-	display: inline-block;
+	display: grid;
 }
 
 }
