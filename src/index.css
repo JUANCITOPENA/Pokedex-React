@@ -451,8 +451,14 @@ Styles of Pokemon Single Page
 
 
 
-@media screen and (min-width: 900px) {
-
+@media screen and (min-width: 1200px) {
+	
+/* Globales */
+	
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
 /* Card List Pokemon */
 .card-list-pokemon {
 	display: grid;
@@ -485,7 +491,11 @@ Styles of Pokemon Single Page
 
 
 @media screen and (min-width: 480px) {
-
+	
+.container {
+	max-width: 480;
+	margin: 0 auto;
+}
 /* Card List Pokemon */
 .card-list-pokemon {
 	display: grid;
