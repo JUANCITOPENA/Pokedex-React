@@ -590,10 +590,12 @@ header {
 }
 
 .container-info-pokemon h1 {
-	text-align: right;
+	text-align: center;
 	font-size: 30px;
+	display: inline-block;
 }
 
+}
 .info-pokemon {
 	display: flex;
 	justify-content: space-between;
