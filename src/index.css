@@ -451,7 +451,7 @@ Styles of Pokemon Single Page
 
 
 
-@media screen and (min-width: 1200px) {
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
 	
 /* Globales */
 	
@@ -490,7 +490,7 @@ Styles of Pokemon Single Page
 
 
 
-@media screen and (min-width: 480px) {
+@media only screen and (min-width: 360px) and (max-width: 768px) {
 	
 .container {
 	max-width: 480;
