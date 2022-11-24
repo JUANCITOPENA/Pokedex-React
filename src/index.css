@@ -535,7 +535,13 @@ header {
 	grid-template-columns: repeat(2, 1fr);
 	gap: 20px;
 }
-
+card-list-pokemon container
+	display: grid;
+	gap: 10px;
+	width: 90%;
+	height: 90%;
+}
+	
 .card-pokemon {
 	cursor: pointer;
 	text-decoration: none;
@@ -617,13 +623,11 @@ header {
 
 .header-main-pokemon {
 	margin-top: 20px;
-
 	display: grid;
 	align-items: center;
-
-
 	height: 90%;
 	width: 90%;
+	margin:10px;
 }
 
 
