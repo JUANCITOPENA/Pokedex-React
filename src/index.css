@@ -491,7 +491,20 @@ Styles of Pokemon Single Page
 
 
 @media only screen and (min-width: 360px) and (max-width: 768px) {
-	
+
+	/* Header */
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	padding: 20px 0;
+}
+
+.logo img {
+	width: 100px;
+}
+
 .container {
 	max-width: 95%;
 	margin: 0 auto;
@@ -508,8 +521,8 @@ Styles of Pokemon Single Page
 }
 
 .icon-search {
-	width: 20px;
-	height: 20px;
+	width: 15px;
+	height: 15px;
 	stroke: #555;
 }
 	
@@ -533,7 +546,7 @@ Styles of Pokemon Single Page
 	align-items: center;
 	justify-content: center;
 	border-radius: 5px;
-	height: 250px;
+	height: 95%;
 }
 
 .card-img img {
