@@ -615,6 +615,15 @@ header {
 }
 
 
+.header-main-pokemon {
+	margin-top: 20px;
+
+	display: grid;
+	align-items: center;
+
+	position: relative;
+}
+
 
 /* Stats */
 
